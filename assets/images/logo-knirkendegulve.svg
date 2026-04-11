@@ -1,0 +1,31 @@
+<svg width="420" height="90" viewBox="0 0 420 90" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- stabile gulvbrædder -->
+  <rect x="10" y="20" width="10" height="55" fill="#C9342F"/>
+  <rect x="26" y="20" width="10" height="55" fill="#C9342F"/>
+  <rect x="42" y="20" width="10" height="55" fill="#C9342F"/>
+
+  <!-- knirkende bræt (lidt forskudt) -->
+  <rect x="58" y="15" width="10" height="60" fill="#C9342F"/>
+
+  <!-- stabilt bræt -->
+  <rect x="74" y="20" width="10" height="55" fill="#C9342F"/>
+
+  <!-- tekst -->
+  <text x="110" y="45"
+        font-family="Inter, Arial, sans-serif"
+        font-size="28"
+        font-weight="700"
+        fill="#222">
+        KNIRKENDE
+  </text>
+
+  <text x="110" y="72"
+        font-family="Inter, Arial, sans-serif"
+        font-size="18"
+        letter-spacing="2"
+        fill="#555">
+        GULVE
+  </text>
+
+</svg>
