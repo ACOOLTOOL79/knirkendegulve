@@ -1665,13 +1665,40 @@ Vi vender typisk tilbage samme dag.</p>
     }
 
     // Form
-    function handleSubmit(e) {
+    async function handleSubmit(e) {
         e.preventDefault();
-        const btn = e.target.querySelector('button[type="submit"]');
-        btn.innerHTML = 'Tak! Vi vender tilbage snarest.';
-        btn.style.background = '#2D7A3A';
-        btn.style.borderColor = '#2D7A3A';
+        const form = e.target;
+        const btn = form.querySelector('button[type="submit"]');
+        const originalText = btn.innerHTML;
         btn.disabled = true;
+        btn.innerHTML = 'Sender...';
+
+        const data = {
+            name: form.name.value,
+            phone: form.phone.value,
+            email: form.email.value,
+            address: form.address.value,
+            description: form.description.value,
+        };
+
+        try {
+            const res = await fetch('/api/contact', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data),
+            });
+
+            if (!res.ok) throw new Error('Request failed');
+
+            btn.innerHTML = 'Tak! Vi vender tilbage snarest.';
+            btn.style.background = '#2D7A3A';
+            btn.style.borderColor = '#2D7A3A';
+            form.reset();
+        } catch (err) {
+            btn.disabled = false;
+            btn.innerHTML = originalText;
+            alert('Der skete en fejl. Prøv igen, eller ring til os på 40 68 52 92.');
+        }
     }
 
     // Smooth scroll
