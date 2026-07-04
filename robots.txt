@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://knirkendegulve.dk/sitemap.xml
