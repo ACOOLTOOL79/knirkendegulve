@@ -952,13 +952,20 @@
             gap: 2rem;
             flex-wrap: wrap;
         }
-        .footer-links a {
+        .footer-links a,
+        .footer-links button {
             font-size: 0.85rem;
             color: rgba(255,255,255,0.7);
             text-decoration: none;
             transition: color var(--transition);
+            background: none;
+            border: none;
+            font-family: inherit;
+            cursor: pointer;
+            padding: 0;
         }
-        .footer-links a:hover { color: rgba(255,255,255,0.9); }
+        .footer-links a:hover,
+        .footer-links button:hover { color: rgba(255,255,255,0.9); }
         .footer-copy {
             font-size: 0.78rem;
             color: rgba(255,255,255,0.55);
@@ -1830,7 +1837,7 @@ Vi vender typisk tilbage samme dag.</p>
             <a href="#kontakt">Kontakt</a>
             <a href="tel:40685292">40 68 52 92</a>
             <a href="privatlivspolitik.html">Privatlivspolitik</a>
-            <a href="javascript:void(0)" onclick="openCookieSettings()">Cookieindstillinger</a>
+            <button type="button" onclick="openCookieSettings()">Cookieindstillinger</button>
         </div>
         <div class="footer-copy">© 2024 KnirkendeGulve.dk · CVR: 42802913</div>
     </div>

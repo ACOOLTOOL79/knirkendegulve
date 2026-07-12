@@ -88,8 +88,18 @@
             padding: 2rem;
             text-align: center;
         }
-        footer a { color: rgba(255,255,255,0.7); text-decoration: none; margin: 0 0.75rem; font-size: 0.85rem; }
-        footer a:hover { color: #fff; }
+        footer a, footer button {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            margin: 0 0.75rem;
+            font-size: 0.85rem;
+            background: none;
+            border: none;
+            font-family: inherit;
+            cursor: pointer;
+            padding: 0;
+        }
+        footer a:hover, footer button:hover { color: #fff; }
         .footer-copy { color: rgba(255,255,255,0.55); font-size: 0.78rem; margin-top: 1rem; }
 
         .cookie-banner {
@@ -185,7 +195,7 @@
     <div>
         <a href="/">Forside</a>
         <a href="/#kontakt">Kontakt</a>
-        <a href="javascript:void(0)" onclick="openCookieSettings()">Cookieindstillinger</a>
+        <button type="button" onclick="openCookieSettings()">Cookieindstillinger</button>
     </div>
     <div class="footer-copy">© 2024 KnirkendeGulve.dk · CVR: 42802913</div>
 </footer>
