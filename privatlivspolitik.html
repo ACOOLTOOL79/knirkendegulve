@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privatlivspolitik – KnirkendeGulve.dk</title>
+    <meta name="description" content="Læs hvordan KnirkendeGulve.dk (Knirkeriet ApS) behandler dine personoplysninger, herunder kontaktformular, cookies og Google Analytics.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://knirkendegulve.dk/privatlivspolitik.html">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <meta name="theme-color" content="#B32B2B">
+
+    <style>
+        @font-face {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 300 600;
+            font-display: swap;
+            src: url('assets/fonts/dm-sans-normal.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 400 600;
+            font-display: swap;
+            src: url('assets/fonts/lora-normal.woff2') format('woff2');
+        }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --white:        #FFFFFF;
+            --bg:           #F9F8F6;
+            --dark:         #1A1817;
+            --text:         #1A1817;
+            --text-muted:   #65605B;
+            --red:          #B32B2B;
+            --red-dark:     #902020;
+            --border:       #E3DDD7;
+            --font-display: 'Lora', Georgia, serif;
+            --font-body:    'DM Sans', system-ui, sans-serif;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--bg);
+            color: var(--text);
+            font-size: 16px;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.25rem 2rem;
+            background: var(--white);
+            border-bottom: 1px solid var(--border);
+        }
+        .nav-logo img { height: 44px; width: auto; display: block; }
+        .nav-phone { font-family: var(--font-body); font-weight: 600; color: var(--dark); text-decoration: none; }
+
+        main {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 3.5rem 1.5rem 5rem;
+        }
+        h1 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        .updated { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 2.5rem; }
+        h2 {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            margin-top: 2.25rem;
+            margin-bottom: 0.75rem;
+        }
+        p, li { color: var(--text); margin-bottom: 0.9rem; }
+        ul { padding-left: 1.25rem; }
+        a { color: var(--red); }
+        a:hover { color: var(--red-dark); }
+
+        footer {
+            background: var(--dark);
+            padding: 2rem;
+            text-align: center;
+        }
+        footer a { color: rgba(255,255,255,0.7); text-decoration: none; margin: 0 0.75rem; font-size: 0.85rem; }
+        footer a:hover { color: #fff; }
+        .footer-copy { color: rgba(255,255,255,0.55); font-size: 0.78rem; margin-top: 1rem; }
+
+        .cookie-banner {
+            position: fixed;
+            left: 0; right: 0; bottom: 0;
+            z-index: 1100;
+            background: var(--dark);
+            padding: 1.25rem 2rem;
+            transform: translateY(100%);
+            transition: transform 0.4s ease;
+        }
+        .cookie-banner.visible { transform: translateY(0); }
+        .cookie-banner-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .cookie-banner-text { font-size: 0.9rem; line-height: 1.5; color: rgba(255,255,255,0.75); max-width: 700px; }
+        .cookie-banner-text a { color: #fff; }
+        .cookie-banner-actions { display: flex; gap: 0.75rem; flex-shrink: 0; }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.7rem 1.4rem;
+            border-radius: 3px;
+            font-family: var(--font-body);
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+        .btn-red { background: var(--red); color: var(--white); border-color: var(--red); }
+        .btn-red:hover { background: var(--red-dark); border-color: var(--red-dark); }
+        .btn-decline { background: transparent; color: rgba(255,255,255,0.8); border-color: rgba(255,255,255,0.3); }
+        .btn-decline:hover { border-color: rgba(255,255,255,0.6); color: #fff; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="/" class="nav-logo">
+        <img src="assets/images/logo-knirkendegulve.svg" alt="KnirkendeGulve.dk" width="420" height="90">
+    </a>
+    <a href="tel:40685292" class="nav-phone">40 68 52 92</a>
+</nav>
+
+<main>
+    <h1>Privatlivspolitik</h1>
+    <p class="updated">Sidst opdateret: juli 2026</p>
+
+    <p>Denne privatlivspolitik beskriver, hvordan Knirkeriet ApS (CVR 42802913), der driver KnirkendeGulve.dk, behandler dine personoplysninger.</p>
+
+    <h2>Dataansvarlig</h2>
+    <p>
+        Knirkeriet ApS, CVR 42802913<br>
+        Telefon: <a href="tel:40685292">40 68 52 92</a><br>
+        E-mail: <a href="mailto:info@knirkendegulve.dk">info@knirkendegulve.dk</a>
+    </p>
+
+    <h2>Oplysninger vi indsamler</h2>
+    <p>Når du bruger vores kontaktformular, indsamler vi de oplysninger du selv skriver: navn, telefonnummer, e-mail, adresse (hvis du oplyser den) og en beskrivelse af dit gulvproblem.</p>
+
+    <h2>Formål og retsgrundlag</h2>
+    <p>Vi bruger oplysningerne til at besvare din henvendelse og give dig et tilbud på reparation. Behandlingen sker for at kunne indgå og opfylde en aftale med dig, jf. databeskyttelsesforordningens artikel 6, stk. 1, litra b, samt vores legitime interesse i at kunne besvare henvendelser, jf. artikel 6, stk. 1, litra f.</p>
+
+    <h2>Hvem deler vi oplysninger med</h2>
+    <ul>
+        <li><strong>Resend</strong> – sender kontaktformularens indhold videre som e-mail til os. Resend er databehandler for os.</li>
+        <li><strong>Vercel</strong> – hoster hjemmesiden og logger tekniske oplysninger (bl.a. IP-adresse) af drifts- og sikkerhedshensyn.</li>
+        <li><strong>Google Analytics</strong> – bruges kun til statistik, hvis du har givet samtykke via cookie-banneret. IP-adresser anonymiseres.</li>
+    </ul>
+    <p>Vi sælger aldrig dine oplysninger videre, og de bruges ikke til markedsføring uden dit samtykke.</p>
+
+    <h2>Opbevaring</h2>
+    <p>Henvendelser via kontaktformularen opbevares, så længe det er nødvendigt for at besvare din henvendelse og eventuelt udføre den aftalte opgave, herefter slettes de løbende. Oplysninger der indgår i regnskabsmateriale opbevares i op til 5 år efter bogføringslovens regler.</p>
+
+    <h2>Cookies</h2>
+    <p>Vi bruger kun cookies/lokal lagring til to formål:</p>
+    <ul>
+        <li>At huske dit valg i cookie-banneret (teknisk nødvendigt, kræver ikke samtykke).</li>
+        <li>Google Analytics, som kun aktiveres hvis du klikker "Accepter" i cookie-banneret. Du kan til enhver tid ændre dit valg via "Cookieindstillinger" i bunden af siden.</li>
+    </ul>
+
+    <h2>Dine rettigheder</h2>
+    <p>Du har ret til indsigt i, berigtigelse af og sletning af dine oplysninger, samt ret til at gøre indsigelse mod behandlingen og til dataportabilitet. Kontakt os på <a href="mailto:info@knirkendegulve.dk">info@knirkendegulve.dk</a>, hvis du vil gøre brug af dine rettigheder. Du kan også klage til <a href="https://www.datatilsynet.dk" target="_blank" rel="noopener">Datatilsynet</a>.</p>
+</main>
+
+<footer>
+    <div>
+        <a href="/">Forside</a>
+        <a href="/#kontakt">Kontakt</a>
+        <a href="javascript:void(0)" onclick="openCookieSettings()">Cookieindstillinger</a>
+    </div>
+    <div class="footer-copy">© 2024 KnirkendeGulve.dk · CVR: 42802913</div>
+</footer>
+
+<div class="cookie-banner" id="cookie-banner">
+    <div class="cookie-banner-inner">
+        <p class="cookie-banner-text">
+            Vi bruger cookies til statistik (Google Analytics), så vi kan forbedre siden. Du kan altid skifte mening. Læs mere i vores privatlivspolitik ovenfor.
+        </p>
+        <div class="cookie-banner-actions">
+            <button type="button" class="btn btn-decline" onclick="declineCookies()">Afvis</button>
+            <button type="button" class="btn btn-red" onclick="acceptCookies()">Accepter</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    const GA_MEASUREMENT_ID = ''; // <-- Indsæt jeres Google Analytics 4 Measurement ID her, fx "G-ABC1234XYZ"
+    const COOKIE_CONSENT_KEY = 'kg_cookie_consent';
+    const cookieBanner = document.getElementById('cookie-banner');
+
+    function loadGoogleAnalytics() {
+        if (!GA_MEASUREMENT_ID) return;
+        const script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_MEASUREMENT_ID;
+        script.async = true;
+        document.head.appendChild(script);
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () { dataLayer.push(arguments); };
+        gtag('js', new Date());
+        gtag('config', GA_MEASUREMENT_ID, { anonymize_ip: true });
+    }
+
+    function setCookieConsent(value) {
+        localStorage.setItem(COOKIE_CONSENT_KEY, value);
+        cookieBanner.classList.remove('visible');
+        if (value === 'accepted') loadGoogleAnalytics();
+    }
+    function acceptCookies() { setCookieConsent('accepted'); }
+    function declineCookies() { setCookieConsent('declined'); }
+    function openCookieSettings() { cookieBanner.classList.add('visible'); }
+
+    const existingConsent = localStorage.getItem(COOKIE_CONSENT_KEY);
+    if (existingConsent === 'accepted') {
+        loadGoogleAnalytics();
+    } else if (!existingConsent) {
+        cookieBanner.classList.add('visible');
+    }
+</script>
+
+</body>
+</html>
