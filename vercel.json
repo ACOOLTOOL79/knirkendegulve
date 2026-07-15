@@ -1,0 +1,10 @@
+{
+    "redirects": [
+        {
+            "source": "/:path*",
+            "has": [{ "type": "host", "value": "www.knirkendegulve.dk" }],
+            "destination": "https://knirkendegulve.dk/:path*",
+            "permanent": true
+        }
+    ]
+}
