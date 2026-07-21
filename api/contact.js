@@ -8,7 +8,7 @@ module.exports = async (req, res) => {
         return;
     }
 
-    const { name, phone, email, address, description } = req.body || {};
+    const { name, phone, email, address, postalCode, city, description } = req.body || {};
 
     if (!name || !phone || !email || !description) {
         res.status(400).json({ error: 'Udfyld venligst alle påkrævede felter.' });
@@ -26,6 +26,8 @@ module.exports = async (req, res) => {
                 `Telefon: ${phone}`,
                 `E-mail: ${email}`,
                 `Adresse: ${address || '-'}`,
+                `Postnummer: ${postalCode || '-'}`,
+                `By: ${city || '-'}`,
                 '',
                 'Beskrivelse:',
                 description,
