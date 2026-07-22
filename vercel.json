@@ -11,6 +11,26 @@
             "has": [{ "type": "host", "value": "www.knirkendegulve.dk" }],
             "destination": "https://knirkendegulve.dk/:path*",
             "permanent": true
+        },
+        {
+            "source": "/pages/arbejdsmetode.php",
+            "destination": "/#processen",
+            "permanent": true
+        },
+        {
+            "source": "/pages/kontakt.php",
+            "destination": "/#kontakt",
+            "permanent": true
+        },
+        {
+            "source": "/pages/:path*",
+            "destination": "/",
+            "permanent": true
+        },
+        {
+            "source": "/mobil/:path*",
+            "destination": "/",
+            "permanent": true
         }
     ]
 }
