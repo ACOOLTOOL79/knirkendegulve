@@ -23,7 +23,17 @@
             "permanent": true
         },
         {
+            "source": "/pages/",
+            "destination": "/",
+            "permanent": true
+        },
+        {
             "source": "/pages/:path*",
+            "destination": "/",
+            "permanent": true
+        },
+        {
+            "source": "/mobil/",
             "destination": "/",
             "permanent": true
         },
