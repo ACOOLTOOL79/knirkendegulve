@@ -17,8 +17,8 @@ module.exports = async (req, res) => {
 
     try {
         await resend.emails.send({
-            from: 'KnirkendeGulve.dk <onboarding@resend.dev>',
-            to: 'jonathanhansen45@gmail.com',
+            from: 'KnirkendeGulve.dk <noreply@knirkendegulve.dk>',
+            to: ['jonathanhansen45@gmail.com', 'knirkeriet@gmail.com'],
             reply_to: email,
             subject: `Ny henvendelse fra ${name}`,
             text: [
