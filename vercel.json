@@ -13,6 +13,16 @@
             "permanent": true
         },
         {
+            "source": "/index.php",
+            "destination": "/",
+            "permanent": true
+        },
+        {
+            "source": "/Index.php",
+            "destination": "/",
+            "permanent": true
+        },
+        {
             "source": "/pages/arbejdsmetode.php",
             "destination": "/#processen",
             "permanent": true
@@ -23,6 +33,11 @@
             "permanent": true
         },
         {
+            "source": "/pages/privatlivspolitik.php",
+            "destination": "/privatlivspolitik.html",
+            "permanent": true
+        },
+        {
             "source": "/pages/",
             "destination": "/",
             "permanent": true
@@ -30,6 +45,11 @@
         {
             "source": "/pages/:path*",
             "destination": "/",
+            "permanent": true
+        },
+        {
+            "source": "/mobil/kontakt.php",
+            "destination": "/#kontakt",
             "permanent": true
         },
         {
