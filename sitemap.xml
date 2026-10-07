@@ -25,12 +25,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://knirkendegulve.dk/knirkende-gulve-aalborg.html</loc>
-        <lastmod>2026-07-28</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://knirkendegulve.dk/knirkende-gulve-esbjerg.html</loc>
         <lastmod>2026-07-28</lastmod>
         <changefreq>monthly</changefreq>
@@ -116,12 +110,6 @@
     </url>
     <url>
         <loc>https://knirkendegulve.dk/knirkende-gulve-svendborg.html</loc>
-        <lastmod>2026-07-28</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://knirkendegulve.dk/knirkende-gulve-hjoerring.html</loc>
         <lastmod>2026-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

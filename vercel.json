@@ -13,6 +13,16 @@
             "permanent": true
         },
         {
+            "source": "/knirkende-gulve-aalborg.html",
+            "destination": "/knirkende-gulve-randers.html",
+            "permanent": true
+        },
+        {
+            "source": "/knirkende-gulve-hjoerring.html",
+            "destination": "/knirkende-gulve-randers.html",
+            "permanent": true
+        },
+        {
             "source": "/index.php",
             "destination": "/",
             "permanent": true
